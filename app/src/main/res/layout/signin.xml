@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".SignIn">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Drop"
+            android:textColor="@color/spnColor3"
+            android:textSize="30dp"
+            android:layout_marginBottom="30dp"
+            android:textStyle="bold"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:text=""
+            android:ems="15"
+            android:textColorHint="@color/spnColor"
+            android:textColor="@color/textColor1"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:hint="name"
+            android:id="@+id/editTextn"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:textAlignment="center"
+            android:ems="15"
+            android:hint="contact number"
+            android:textSize="20dp"
+            android:textColorHint="@color/spnColor"
+            android:textColor="@color/textColor1"
+            android:id="@+id/editTextc"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="15"
+            android:textSize="20dp"
+            android:textColorHint="@color/spnColor"
+            android:textColor="@color/textColor1"
+            android:hint="email"
+            android:textAlignment="center"
+            android:id="@+id/editTexte"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="15"
+            android:textAlignment="center"
+            android:hint="password"
+            android:textColorHint="@color/spnColor"
+            android:textColor="@color/textColor1"
+            android:textSize="20dp"
+            android:id="@+id/editTextp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:textAlignment="center"
+            android:textColorHint="@color/spnColor"
+            android:textColor="@color/textColor1"
+            android:textSize="20dp"
+            android:hint="re-enter password"
+            android:id="@+id/editTextrp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:onClick="signin"
+            android:background="@color/btnColor"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/buttonsignin"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click here to login."
+            android:onClick="login"
+            android:textColor="@color/colorPrimaryDark"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</RelativeLayout>

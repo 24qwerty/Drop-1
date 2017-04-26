@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary2">#3F51B5</color>
+    <color name="colorPrimaryDark2">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimary">#F50057</color>
+    <color name="colorPrimaryDark">#F50057</color>
+    <color name="colorPrimaryDark3">#7E57C2</color>
+    <color name="colorPrimary3">#9575CD</color>
+    <color name="btnColor3">#FFCC80</color>
+    <color name="a">#FFA726</color>
+    <color name="spnColor3">#FFCC80</color>
+    <color name="textColor">#FFCC80</color>
+    <color name="backgroundColor">#ffffff</color>
+    <color name="backgroundColor2">#DCEDC8</color>
+    <color name="textColor1">#000000</color>
+    <color name="btnColor">#3949AB</color>
+    <color name="spnColor">#3949AB</color>
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/backgroundColor"
+    tools:context=".EnablePublicPresence">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        android:layout_alignParentTop="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make your presence felt!"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20dp"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/textView2"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Select a profession"
+            android:textColor="@color/spnColor"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/textView3" />
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/spnColor"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/spinner" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Add a description"
+            android:textColor="@color/spnColor"
+            android:layout_marginBottom="5dp"
+            android:id="@+id/textView4" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Add a description."
+            android:id="@+id/editTextDescription" />
+
+        <Switch
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Go Public?"
+            android:textColor="@color/spnColor"
+            android:layout_marginBottom="30dp"
+            android:layout_gravity="center"
+            android:id="@+id/switch1" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Done"
+            android:background="@color/btnColor"
+            android:textColor="#ffffff"
+            android:padding="5dp"
+
+            android:layout_gravity="center"
+            android:id="@+id/button4" />
+    </LinearLayout>
+</RelativeLayout>
